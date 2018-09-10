@@ -1,7 +1,50 @@
-body {
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+html {
   font-family: 'IBM Plex Sans', 'Arial', sans-serif;
+  font-size: 1.2em;
+}
+body {
+  margin: 0 10% 20% 10%;
 }
 
+.greeting {
+  height: 100vh;
+  display: flex;
+  flex-direction: row;
+  align-items: center; /* center vertically */
+}
 .greeting img {
   width: 30%;
+  margin-left: 5%;
+}
+
+h2 {
+  margin: 2em 0 1rem 0;
+  text-align: center;
+  font-family: 'IBM Plex Mono', monospace;
+  font-weight: normal;
+  font-size: 3rem;
+  overflow-wrap: break-word;
+}
+h3 {
+  margin: 2em 0 1rem 0;
+  font-family: 'IBM Plex Mono', monospace;
+  font-weight: normal;
+  font-size: 1.5rem;
+  text-transform: uppercase;
+}
+p {
+  margin: 0 0 1em 0;
+  font-size: 1rem;
+}
+a {
+  color: #4a86e8;
+  text-decoration: none;
+}
+a:hover {
+  text-decoration: underline;
 }
