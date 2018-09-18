@@ -5,7 +5,7 @@
 }
 html {
   font-family: 'IBM Plex Sans', 'Arial', sans-serif;
-  font-size: 1.2em;
+  font-size: 1.2rem;
 }
 body {
   margin: 0 10% 20% 10%;
@@ -16,6 +16,9 @@ body {
   display: flex;
   flex-direction: row;
   align-items: center; /* center vertically */
+}
+.greeting p {
+  font-size: 1.25rem;
 }
 .greeting img {
   width: 30%;
@@ -41,10 +44,37 @@ p {
   margin: 0 0 1em 0;
   font-size: 1rem;
 }
+li {
+  font-size: 1rem;
+}
 a {
   color: #4a86e8;
   text-decoration: none;
 }
 a:hover {
   text-decoration: underline;
+}
+
+/* Tablet portrait and smaller */
+@media only screen
+  and (max-device-width: 900px) {
+
+  body {
+    margin-top: 10%;
+  }
+  .greeting {
+    /* One column centered horizontally */
+    flex-direction: column-reverse;
+    justify-content: center;
+
+    /* Don't force viewport height */
+    height: auto;
+  }
+  .greeting img {
+    margin-bottom: 3rem;
+  }
+  .greeting p {
+    text-align: center;
+  }
+
 }
