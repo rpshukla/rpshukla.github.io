@@ -54,6 +54,13 @@ a {
 a:hover {
   text-decoration: underline;
 }
+pre {
+  font-family: 'IBM Plex Mono', monospace;
+  font-size: 0.9rem;
+  background-color: #efefefef;
+  padding: 1em 1em 1em 1em;
+  margin-bottom: 1em
+}
 .embed {
     width: 560px;
     height: 315px;

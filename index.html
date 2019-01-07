@@ -61,6 +61,20 @@
 
   <h3>boolang</h3>
   <p>A language meant for doing boolean algebra. Currently it is implemented as a tree-walk interpreter using PLY (Python Lex-Yacc).</p>
+  <p>Here is an example boolang program which defines a function and prints a truth table.</p>
+
+<pre><code>\def \myFunc [x, y] {
+  (xy' + x'y)'
+}
+
+\truth \myFunc</code></pre>
+
+  <p>Output:</p>
+<pre><samp>0, 0 => 1
+0, 1 => 0
+1, 0 => 0
+1, 1 => 1</samp></pre>
+
   <a href="https://github.com/rpshukla/boolang" target="_blank">View code</a>
 
   <h3>Stock Neural Network</h3>
