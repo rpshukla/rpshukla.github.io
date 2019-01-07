@@ -54,6 +54,11 @@ a {
 a:hover {
   text-decoration: underline;
 }
+.embed {
+    width: 560px;
+    height: 315px;
+    margin: 0 0 1em 0;
+}
 
 /* Tablet portrait and smaller */
 @media only screen
@@ -71,6 +76,7 @@ a:hover {
     height: auto;
   }
   .greeting img {
+    width: 40%;
     margin-bottom: 3rem;
   }
   .greeting p {
