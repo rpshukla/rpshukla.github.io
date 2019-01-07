@@ -83,4 +83,9 @@ a:hover {
     text-align: center;
   }
 
+  .embed {
+      width: 80vw; /* Use vw so I can get correct aspect ratio. */
+      height: 45vw;
+  }
+
 }
