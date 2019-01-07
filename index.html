@@ -57,6 +57,29 @@
   <h3>napkin</h3>
   <p>Napkin is little programming language/environment for doing quick "back-of-the-napkin" math. My goal is for it to be a lightweight alternative to things like MATLAB and NumPy. It has native support for complex numbers and will eventually support matrix arithmetic.</p>
   <p>I am writing the napkin interpreter from scratch using only standard C++ libraries. This includes a hand-written recursive descent parser.</p>
+
+  <p>An example napkin program</p>
+  <pre><code># Computes the first n numbers in the fibonacci sequence using a while loop
+n = 100
+
+f_0 = 0
+f_1 = 1
+output f_0
+output f_1
+
+i = 0
+while i < n {
+  next = f_0 + f_1 # local variable
+  output next
+
+  f_0 = f_1
+  f_1 = next
+
+  i = i + 1
+}
+
+output "done"</code></pre>
+
   <a href="https://github.com/rpshukla/napkin" target="_blank">View code</a>
 
   <h3>boolang</h3>
