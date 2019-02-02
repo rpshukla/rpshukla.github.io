@@ -1,65 +1,56 @@
-<!DOCTYPE html>
+---
+layout: default
+title: Ryan Shukla
+---
 
-<html lang="en">
-<head>
-  <meta charset="utf-8">
-
-  <title>Ryan Shukla</title>
-
-  <link href="https://fonts.googleapis.com/css?family=IBM+Plex+Mono:400,400i,700,700i|IBM+Plex+Sans:400,400i,700,700i" rel="stylesheet">
-  <link rel="stylesheet" href="css/style.css">
-
-</head>
-
-<body>
-  <div class="greeting">
-    <div class="greeting-text"> <!-- Text must stack vertically while .greeting has flex-direction:row -->
-      <p>Hi, I'm <b>Ryan Shukla</b> and I’m a computer engineering student.</p>
-      <p>I'm interested in machine learning, computer vision, language design/implementation, and web development.</p>
-    </div>
-
-    <img src="resources/headshot.jpg" alt="headshot"/>
+<div class="greeting">
+  <div class="greeting-text"> <!-- Text must stack vertically while .greeting has flex-direction:row -->
+    <p>Hi, I'm <b>Ryan Shukla</b> and I’m a computer engineering student.</p>
+    <p>I'm interested in machine learning, computer vision, language design/implementation, and web development.</p>
   </div>
 
-  <h2>Skills</h2>
+  <img src="resources/headshot.jpg" alt="headshot"/>
+</div>
 
-  <h3>Languages I'm fluent in</h3>
-  <ul>
-    <li>C++</li>
-    <li>Python</li>
-    <li>HTML/CSS/SASS</li>
-    <li>MATLAB</li>
-  </ul>
-  <h3>Languages I'm learning</h3>
-  <ul>
-    <li>Javascript (ES6)</li>
-    <li>SQL</li>
-    <li>C</li>
-    <li>Lisp</li>
-  </ul>
-  <h3>Tools</h3>
-  <ul>
-    <li>Linux</li>
-    <li>Bash</li>
-    <li>Git</li>
-    <li>Make</li>
-  </ul>
-  <h3>Other</h3>
-  <ul>
-    <li>Arduino</li>
-    <li>Robot Operating System (ROS)</li>
-    <li>Adobe Lightroom, Photoshop, Illustrator, InDesign</li>
-    <li>I can do some pretty cool yo-yo tricks</li>
-  </ul>
+<h2>Skills</h2>
 
-  <h2>Projects</h2>
+<h3>Languages I'm fluent in</h3>
+<ul>
+  <li>C++</li>
+  <li>Python</li>
+  <li>HTML/CSS/SASS</li>
+  <li>MATLAB</li>
+</ul>
+<h3>Languages I'm learning</h3>
+<ul>
+  <li>Javascript (ES6)</li>
+  <li>SQL</li>
+  <li>C</li>
+  <li>Lisp</li>
+</ul>
+<h3>Tools</h3>
+<ul>
+  <li>Linux</li>
+  <li>Bash</li>
+  <li>Git</li>
+  <li>Make</li>
+</ul>
+<h3>Other</h3>
+<ul>
+  <li>Arduino</li>
+  <li>Robot Operating System (ROS)</li>
+  <li>Adobe Lightroom, Photoshop, Illustrator, InDesign</li>
+  <li>I can do some pretty cool yo-yo tricks</li>
+</ul>
 
-  <h3>napkin</h3>
-  <p>Napkin is little programming language/environment for doing quick "back-of-the-napkin" math. My goal is for it to be a lightweight alternative to things like MATLAB and NumPy. It has native support for complex numbers and will eventually support matrix arithmetic.</p>
-  <p>I am writing the napkin interpreter from scratch using only standard C++ libraries. This includes a hand-written recursive descent parser.</p>
+<h2>Projects</h2>
 
-  <p>An example napkin program:</p>
-  <pre><code># Computes the first n numbers in the fibonacci sequence using a while loop
+<h3>napkin</h3>
+<p>Napkin is little programming language/environment for doing quick "back-of-the-napkin" math. My goal is for it to be a lightweight alternative to things like MATLAB and NumPy. It has native support for complex numbers and will eventually support matrix arithmetic.</p>
+<p>I am writing the napkin interpreter from scratch using only standard C++ libraries. This includes a hand-written recursive descent parser.</p>
+
+<p>An example napkin program:</p>
+<pre><code># Computes the first n numbers in the fibonacci sequence using a while loop
 n = 100
 
 f_0 = 0
@@ -80,11 +71,11 @@ while i < n {
 
 output "done"</code></pre>
 
-  <a href="https://github.com/rpshukla/napkin" target="_blank">View code</a>
+<a href="https://github.com/rpshukla/napkin" target="_blank">View code</a>
 
-  <h3>boolang</h3>
-  <p>A language meant for doing boolean algebra. Currently it is implemented as a tree-walk interpreter using PLY (Python Lex-Yacc).</p>
-  <p>Here is an example boolang program which defines a function and prints a truth table.</p>
+<h3>boolang</h3>
+<p>A language meant for doing boolean algebra. Currently it is implemented as a tree-walk interpreter using PLY (Python Lex-Yacc).</p>
+<p>Here is an example boolang program which defines a function and prints a truth table.</p>
 
 <pre><code>\def \myFunc [x, y] {
   (xy' + x'y)'
@@ -92,31 +83,28 @@ output "done"</code></pre>
 
 \truth \myFunc</code></pre>
 
-  <p>Output:</p>
+<p>Output:</p>
 <pre><samp>0, 0 => 1
 0, 1 => 0
 1, 0 => 0
 1, 1 => 1</samp></pre>
 
-  <a href="https://github.com/rpshukla/boolang" target="_blank">View code</a>
+<a href="https://github.com/rpshukla/boolang" target="_blank">View code</a>
 
-  <h3>Stock Neural Network</h3>
-  <p>A simple neural network implementation written in MATLAB I co-authored with <a href="http://www.mitchadam.com/" target="_blank">Mitchell Adam</a> for a programming contest. Uses a gradient descent training algorithm. Intended to be used to predict stock prices.</p>
-  <iframe class="embed" src="https://www.youtube.com/embed/t2Y0bZ8DIYM" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-  <br/>
-  <a href="https://sites.google.com/a/ualberta.ca/encmp-100-programming-contest/results/2018-04-entries" target="_blank">View code on contest website</a>
+<h3>Stock Neural Network</h3>
+<p>A simple neural network implementation written in MATLAB I co-authored with <a href="http://www.mitchadam.com/" target="_blank">Mitchell Adam</a> for a programming contest. Uses a gradient descent training algorithm. Intended to be used to predict stock prices.</p>
+<iframe class="embed" src="https://www.youtube.com/embed/t2Y0bZ8DIYM" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+<br/>
+<a href="https://sites.google.com/a/ualberta.ca/encmp-100-programming-contest/results/2018-04-entries" target="_blank">View code on contest website</a>
 
-  <h3>Battleship</h3>
-  <p>A simple CLI battleship game I made while I was learning about dynamic memory in C++.</p>
-  <a href="https://github.com/rpshukla/battleship" target="_blank">View code</a>
+<h3>Battleship</h3>
+<p>A simple CLI battleship game I made while I was learning about dynamic memory in C++.</p>
+<a href="https://github.com/rpshukla/battleship" target="_blank">View code</a>
 
-  <h2>Extracurriculars</h2>
-  <h3>Space Exploration Alberta Robotics</h3>
-  <p>SPEAR is a student group which designs and builds a mars rover to compete in rover competitions against universities around the world. As co-lead of the autonomy team, I am working on developing an autonomous drive system.</p>
-  <a href="http://spaceualberta.ca/" target="_blank">SPEAR website</a>
+<h2>Extracurriculars</h2>
+<h3>Space Exploration Alberta Robotics</h3>
+<p>SPEAR is a student group which designs and builds a mars rover to compete in rover competitions against universities around the world. As co-lead of the autonomy team, I am working on developing an autonomous drive system.</p>
+<a href="http://spaceualberta.ca/" target="_blank">SPEAR website</a>
 
-  <h2>Fork me on GitHub</h2>
-  <a href="https://github.com/rpshukla" target="_blank">github.com/rpshukla</a>
-
-</body>
-</html>
+<h2>Fork me on GitHub</h2>
+<a href="https://github.com/rpshukla" target="_blank">github.com/rpshukla</a>
