@@ -15,7 +15,7 @@ nav {
   display: flex;
 }
 nav a {
-  display: block;
+  font-size: 1rem;
   margin: 5px 20px 5px 0;
 }
 nav .current_page {
@@ -87,12 +87,16 @@ pre {
 }
 
 /* Tablet portrait and smaller */
-@media only screen
-  and (max-device-width: 900px) {
+@media (max-device-width: 900px) {
 
   body {
     margin-top: 10%;
   }
+
+  nav a {
+    font-size: 2rem;
+  }
+
   .greeting {
     /* One column centered horizontally */
     flex-direction: column-reverse;
