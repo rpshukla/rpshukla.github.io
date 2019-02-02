@@ -11,6 +11,17 @@ body {
   margin: 0 10% 20% 10%;
 }
 
+nav {
+  display: flex;
+}
+nav a {
+  display: block;
+  margin: 5px 20px 5px 0;
+}
+nav .current_page {
+  font-weight: bold;
+}
+
 .greeting {
   height: 100vh;
   display: flex;
@@ -62,9 +73,17 @@ pre {
   margin-bottom: 1em
 }
 .embed {
-    width: 560px;
-    height: 315px;
-    margin: 0 0 1em 0;
+  width: 560px;
+  height: 315px;
+  margin: 0 0 1em 0;
+}
+
+/* The dates on blog posts */
+.date {
+  font-size: 0.8rem;
+  color: #888;
+  margin-top: 0;
+  margin-bottom: 1em;
 }
 
 /* Tablet portrait and smaller */
