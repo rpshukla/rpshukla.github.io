@@ -1,0 +1,17 @@
+---
+title: Notes
+layout: default
+---
+
+<h2>Notes</h2>
+
+<p>I like to take notes when I learn about things so that I don't lose the knowledge later.
+Think of these notes as swap files for my brain.</p>
+
+<ul>
+  {% for page in site.notes %}
+
+  <li><a href="{{ page.url }}">{{ page.title }}</a></li>
+
+  {% endfor %}
+</ul>
