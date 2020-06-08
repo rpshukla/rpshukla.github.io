@@ -51,12 +51,19 @@ h3 {
   font-size: 1.5rem;
   text-transform: uppercase;
 }
+h4 {
+  margin: 2em 0 1rem 0;
+  font-family: 'IBM Plex Mono', monospace;
+  font-weight: normal;
+  font-size: 1.1rem;
+}
 p {
   margin: 0 0 1em 0;
   font-size: 1rem;
 }
 li {
   font-size: 1rem;
+  margin-left: 2em;
 }
 a {
   color: #4a86e8;
@@ -117,5 +124,3 @@ pre {
       width: 80vw; /* Use vw so I can get correct aspect ratio. */
       height: 45vw;
   }
-
-}
