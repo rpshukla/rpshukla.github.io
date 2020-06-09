@@ -85,11 +85,53 @@ Note that the natural 7th is considered a chord tone.
   - Add jump up after tonic
   - Add jump up after 3, add semitone between 2 and 1, add jump up after 1
 
+### 6th Diminished Scale
+
+A very pretty and jazzy way of harmonizing any scale tone.
+
+One application is adding fills while you're sitting on a tonic.
+
+These chords sound good in drop 2 voicings so they're perfect for guitar.
+
+Sources:
+- <https://youtu.be/m03rywIiQLc>
+- <https://youtu.be/v2vTXuKRLxc>
+- <https://youtu.be/1f8HSkMEyMI>
+
+#### Major 6th Diminished Scale
+
+There are 2 (sort of inverse) ways to think of where this scale comes from:
+1. Take a major scale and add a semitone between the 5th and 6th.
+   There are 2 four-note arpeggios that can be formed by jumping in thirds: major 6 and diminished.
+2. Union of the notes in a tonic major 6 and a diminished 7th chord starting on the 2nd scale degree.
+
+Either way you get this scale:
+
+```
+Scale:    1 2 3 4 5 6b 6 7
+Tonic:    1   3   5    6
+Dominant:   2   4   6b   7
+```
+
+The tonic functions as the tonic and the diminished chord functions as the dominant.
+
+Also note that a major 6th chord is the same notes as the minor 7th chord in the relative minor.
+
+#### Minor 6th Diminished Scale
+
+Same as previous but based on a melodic minor scale (just flatten the third).
+
+```
+Scale:    1 2 b3 4 5 6b 6 7
+Tonic:    1   b3   5    6
+Dominant:   2    4   6b   7
+```
+
+"Monk never called things 'half diminished', he called that a minor with a 6th in the bass." (<https://youtu.be/1f8HSkMEyMI>)
+
 ### 5432
 
 ### Family of 4 Dominants
-
-### Diminished 6th Scale
 
 ### Blues
 
