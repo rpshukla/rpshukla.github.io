@@ -22,18 +22,45 @@ nav .current_page {
   font-weight: bold;
 }
 
+.greeting, .card {
+  border: 2px solid black;
+}
+
 .greeting {
-  height: 100vh;
+  width: 50%;
+  margin: 20px auto;
+  padding: 20px;
   display: flex;
-  flex-direction: row;
-  align-items: center; /* center vertically */
+  flex-direction: column;
+  align-items: center;
 }
 .greeting p {
-  font-size: 1.25rem;
+  font-family: 'Josefin Sans', sans-serif;
+  font-size: 1.5rem;
+}
+.greeting b {
+  font-weight: 700;
 }
 .greeting img {
   width: 30%;
   margin-left: 5%;
+  padding-bottom: 2rem;
+}
+
+.card {
+  width: 50%;
+  margin: 20px auto;
+}
+.card a {
+  display: block;
+  padding: 20px;
+  color: black;
+  text-align: center;
+  font-family: 'Josefin Sans', sans-serif;
+  font-size: 1.5rem;
+}
+.card a:hover {
+  text-decoration: underline;
 }
 
 h2 {
